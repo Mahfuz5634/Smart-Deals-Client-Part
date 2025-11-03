@@ -12,4 +12,11 @@ fetch("address",{
 const token = req.body.authorization;
 
 
+-----------MiddleWare------------------
+const logger=(req,res,next)=>{
+    console.log("Logging Information")
+    next();
+}
+
+
 */
